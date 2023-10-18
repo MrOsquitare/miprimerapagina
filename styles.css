@@ -330,3 +330,9 @@ footer {
   .form-row button {
     margin-left: 120px;
   }
+
+  .greeting {
+    text-align: center;
+    color: rebeccapurple;
+    padding: 2em;
+  }
