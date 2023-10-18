@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c735cba60a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caprasimo&family=Caveat&family=DM+Serif+Display&family=Fasthand&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;600&family=Poppins:wght@600&family=Press+Start+2P&family=Questrial&family=Raleway:wght@300;400;500&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c9b87a4bee.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header id="encabezado" class="menu-principal">
+        <a href="index.html"><i class="fa-solid fa-heart"></i></a>
+        <nav>
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de mi</a></li>
+            <li><a href="#">Trabajos</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="seccion-principal">
+        <section class="seccion-1">
+          <div class="acerca-de">
+            <h2 id="tituloacercademi">Martha</h2>
+            <p class="parrafo1">
+              ¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.
+            </p>
+            <p class="parrafo2">
+              Hola mi nombre es luis, nací en la ciudad de medellin y me gusta
+              el color blanco.
+            </p>
+          </div>
+          <div class="acerca-imagen">
+            <img
+              src="https://images.unsplash.com/photo-1668554245790-bfdc72f0bb3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80"
+              alt="imagen personal"
+            />
+          </div>
+        </section>
+        <section class="seccion-2">
+          <img
+            src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+            alt="imagen de carrusel"
+          />
+        </section>
+        <div class="trabajos__title">
+          <h2>Mis Trabajos</h2>
+        </div>
+        <section class="trabajos">
+          <article class="trabajo">
+            <div>
+              <img src="#" alt="" />
+            </div>
+            <div>
+              <h3>Titulo 1</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+                blanditiis, tempore rem error amet est molestias, soluta officia
+                eaque natus voluptatum! Aliquid optio ullam quas quam cupiditate
+                ea iusto dolore!
+              </p>
+              <a href="">Leer más</a>
+            </div>
+          </article>
+          <article class="trabajo">
+            <div>
+              <img src="#" alt="" />
+            </div>
+            <div>
+              <h3>Titulo 1</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+                blanditiis, tempore rem error amet est molestias, soluta officia
+                eaque natus voluptatum! Aliquid optio ullam quas quam cupiditate
+                ea iusto dolore!
+              </p>
+              <a href="">Leer más</a>
+            </div>
+          </article>
+          <article class="trabajo">
+            <div>
+              <img src="#" alt="" />
+            </div>
+            <div>
+              <h3>Titulo 1</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+                blanditiis, tempore rem error amet est molestias, soluta officia
+                eaque natus voluptatum! Aliquid optio ullam quas quam cupiditate
+                ea iusto dolore!
+              </p>
+              <a href="">Leer más</a>
+            </div>
+          </article>
+        </section>
+
+        <section class="form-header">
+          <h1>Contacto</h1>
+          <p><em>¡Esperamos tu consulta!</em></p>
+
+          <form action="" method="get" class="formulario" id="form">
+            <div class="form-row">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" />
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="pepe@gmail.com"
+                required
+              />
+            </div>
+
+            <div class="form-row">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje"></textarea>
+            </div>
+
+            <div class="form-row">
+              <button>Enviar</button>
+            </div>
+            <p class="alertas" id="alertas"></p>
+          </form>
+        </section>
+      </main>
+
+      <footer>
+        <h3>Redes Sociales</h3>
+        <nav>
+          <ul class="footer__ul">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+          <p>🧡</p>
+        </nav>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
